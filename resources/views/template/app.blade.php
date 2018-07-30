@@ -34,8 +34,8 @@
             </div>
         </div>
         
-        <div class="content-wrapper" style="min-height: 550px !important;">
-            <div class="container">
+        <div class="content-wrapper" style="min-height: 565px !important;">
+            <div class="container" style="width: 85%;">
                 
                 @yield('content')
                 
