@@ -1,13 +1,12 @@
-# Sistema de Cadastro de Militares
-> Simples CRUD de militares. Desafio para a vaga de Desenvolvedor PHP na CTIS.
+# Sistema de Gestão de Entregas
+> Sistema desenvolvido para atender o desafio para a vaga de Desenvolvedor PHP Fullstack na Unicad.
 
+Sistema que gerencia as entregas com exibição da melhor rota entre os pontos de inicío e término usando a 
+API do Google Maps.
 
-Sistema para gerenciamento de militares. Permite visualizar, cadastrar, alterar e excluir militares.
-Trabalha com os seguintes dados: nome, identidade(RG), data de nascimento, serviço militar obrigatório, patente
+![](screenshot2.png)
 
-![](screenshot.png)
-
-O sistema está acessível no endereço: [https://desafio-ctis-militares.herokuapp.com/](https://desafio-ctis-militares.herokuapp.com/)
+O sistema está acessível no endereço: [https://desafio-unicad-laravel.herokuapp.com/](https://desafio-unicad-laravel.herokuapp.com/)
 
 
 ## Pré-requisitos
@@ -25,7 +24,7 @@ O sistema está acessível no endereço: [https://desafio-ctis-militares.herokua
 
 **Windows, OS X & Linux:**
 
-Baixe o arquivo zip e o descompacte ou baixe o projeto para sua máquina através do git clone [https://github.com/randercarlos/militares-laravel.git](https://github.com/randercarlos/militares-laravel.git)
+Baixe o arquivo zip e o descompacte ou baixe o projeto para sua máquina através do git clone [https://github.com/randercarlos/desafio-unicad-laravel.git](https://github.com/randercarlos/desafio-unicad-laravel.git)
 
 
 - Crie o banco de dados do projeto no MySQL
