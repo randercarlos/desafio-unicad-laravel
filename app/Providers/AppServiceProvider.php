@@ -23,6 +23,10 @@ class AppServiceProvider extends ServiceProvider
             'show' => 'exibir',
             'destroy' => 'excluir',
         ]);
+        
+        
+        // traduz as data do Carbon automaticamente para pt-BR
+        \Carbon\Carbon::setLocale($this->app->getLocale());
     }
 
     /**
