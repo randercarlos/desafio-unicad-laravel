@@ -2,7 +2,7 @@
 
 
 Route::get('/', function () {
-    return redirect()->route('militares.index');
+    return redirect()->route('deliveries.index');
 });
 
-Route::resource('/militares', 'MilitarController');
+Route::resource('/deliveries', 'DeliveryController');
