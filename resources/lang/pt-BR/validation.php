@@ -100,12 +100,9 @@ return [
     */
 
     'custom' => [
-        'data_nascimento' => [
-            'before' => 'A idade mínima é 18 anos!',
+        'delivery_date' => [
+            'after_or_equal' => 'A data de entrega deve ser igual ou posterior a data de hoje!',
             'date_format' => 'Esse campo deve estar no formato dd/mm/aaaa!'
-        ],
-        'name' => [
-            'unique' => 'O nome ":input" já está cadastrado e não pode ser repetido!',
         ]
     ],
 
@@ -121,11 +118,10 @@ return [
     */
 
     'attributes' => [
-        'nome' => 'Nome',
-        'identidade' => 'Identidade',
-        'data_nascimento' => 'Data de nascimento',
-        'servico_militar_obrigatorio' => 'Serviço militar obrigatório',
-        'patente' => 'Patente'
+        'client' => 'Nome do cliente',
+        'delivery_date' => 'Data de entrega',
+        'starting_point' => 'Ponto de partida',
+        'endpoint' => 'Ponto de destino',
     ],
 
 ];
