@@ -57,7 +57,6 @@ class DeliveryController extends Controller
     public function show($id)
     {
         $delivery = Delivery::find($id);
-        //Mapper::map(53.381128999999990000, -1.470085000000040000);
         
         return view('delivery.show', compact('delivery'));
     }
@@ -72,7 +71,7 @@ class DeliveryController extends Controller
     {
         $delivery = Delivery::find($id);
 
-        return view('Delivery.form', compact('delivery'));
+        return view('delivery.form', compact('delivery'));
     }
 
     /**
