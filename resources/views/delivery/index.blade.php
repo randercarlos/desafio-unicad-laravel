@@ -79,7 +79,7 @@
                 </div>
                 
                 <div class="modal-body">
-                    <p>Deseja realmente remover a entrega "<span id='name_resource'></span>" ?</p>
+                    <p>Deseja realmente remover a entrega do cliente "<span id='name_resource'></span>" ?</p>
                 </div>
                 
                 <div class="modal-footer">
