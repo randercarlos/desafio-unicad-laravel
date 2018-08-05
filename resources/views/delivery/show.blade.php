@@ -65,7 +65,7 @@
 
 @push('scripts')
     <script type="text/javascript" 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNPUQAMzifcd1pUjdi7YjL949I4HEa7Rc"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=COLOCAR_SUA_API_KEY_DO_GOOGLE_MAPS"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script src="{{ asset('assets/js/googlemap.js') }}"></script>
     
